@@ -1,1 +1,39 @@
+# Virtual environment
+venv/
+env/
+
+# Data files (too large for GitHub)
+data/raw/
+data/batches/
+data/processed/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Models (large binary files)
+models/*.pkl
+models/*.npy
+
+# Results (can be regenerated)
+results/
+
+# Environment variables (API keys)
 .env
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep these
+!models/.gitkeep
+!data/.gitkeep
+!results/.gitkeep
