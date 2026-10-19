@@ -1,4 +1,4 @@
-# PhishPrint V2 🎣🔍
+# PhishPrint V2
 ### Real-Time Phishing URL Detection with Live Feature Extraction
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
